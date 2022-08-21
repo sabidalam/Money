@@ -1,0 +1,30 @@
+.header-text {
+    font-size: 75px;
+}
+
+.income {
+    background-color: lightgray;
+}
+
+@media only screen and (min-width: 768px) {
+
+    #calculate-btn {
+        margin-left: 204px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+    .sidepic {
+        margin-left: 40px;
+    }
+
+    .income {
+        width: 40%;
+        margin-left: 90px;
+    }
+
+    #calculate-btn {
+        margin-left: 150px;
+    }
+}
